@@ -1,0 +1,38 @@
+.left-bar{
+    top: 50px;
+    left: 0;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+}
+.small-bar{
+    top: 50px;
+    width: 70px;
+    height: 100%;
+    display: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.062);
+    background-color: #fff;
+    position: fixed;
+}
+.big-bar{
+    top: 50px;
+    width: 0px;
+    position: fixed;
+    border-right: 1px solid rgba(0, 0, 0, 0.062);
+    transition:all ease .3s;
+    overflow-y: scroll;
+    background-color: #fff;
+}
+.open-big{
+    width: 220px;
+    height: 100%;
+}
+.content-big-bar{
+    padding: 9px 0;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.226);
+    background-color: #fff;
+}
+.tittle-opicion{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.699);
+}

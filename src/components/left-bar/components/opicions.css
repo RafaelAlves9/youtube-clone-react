@@ -1,0 +1,32 @@
+.opicion-left-bar{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    color: #000;
+}
+.opicion-left-bar:hover{
+    background-color: rgba(0, 0, 0, 0.068);
+}
+.opicion-left-bar img{
+    max-width: 20px;
+    max-height: 21px;
+    margin: 0 20px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.selected{
+    background-color: rgba(0, 0, 0, 0.144);
+    font-weight: 600;
+}
+.tittle{
+    cursor: auto;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.664);
+    height: 30px;
+}
+.tittle:hover{
+    background-color: rgba(128, 128, 128, 0);
+}
