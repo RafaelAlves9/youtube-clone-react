@@ -1,11 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom'
 
-import HomePage from './main/HomePage.jsx'
+import Routes from './Routes.jsx'
 
 ReactDOM.render(
-  <>
-    <HomePage />
-  </>,
+  
+  <BrowserRouter>
+
+    <Routes />
+    
+  </BrowserRouter>
+  ,
   document.getElementById('root')
 );
