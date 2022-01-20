@@ -7,7 +7,7 @@ export default () =>
     <div className="opicion-menu">
         <span className='opicions'><img src={MenuB} alt=""/></span>
         <span className='opicions'><img src={MenuA} alt=""/></span>
-        <span className='login'><Link to="/Login"><img src={Perfil} alt=""/>FAZER LOGIN</Link></span>
+        <Link to="/login"><span className='login'><img src={Perfil} alt=""/>FAZER LOGIN</span></Link>
 
         {/* login mobile */}
         <span className='login-mobile'><img src={Perfil} alt=""/></span>

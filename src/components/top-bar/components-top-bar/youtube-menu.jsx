@@ -14,6 +14,6 @@ function OpenLeftbar() {
 
 export default () => 
         <div className="youtube-menu">
-        <span onClick={OpenLeftbar}><img src={Menu} /></span>
-        <span className='yt-logo'><a href="#root"><img src={Logo} /></a></span>
+            <span onClick={OpenLeftbar}><img src={Menu} /></span>
+            <span className='yt-logo'><a href="#root"><img src={Logo} /></a></span>
         </div>
