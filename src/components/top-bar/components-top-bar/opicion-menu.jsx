@@ -10,5 +10,5 @@ export default () =>
         <Link to="/login"><span className='login'><img src={Perfil} alt=""/>FAZER LOGIN</span></Link>
 
         {/* login mobile */}
-        <span className='login-mobile'><img src={Perfil} alt=""/></span>
+        <Link to="/login"><span className='login-mobile'><img src={Perfil} alt=""/></span></Link>
     </div>

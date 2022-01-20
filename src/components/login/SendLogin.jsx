@@ -1,8 +1,9 @@
+import { Link } from 'react-router-dom'
 import './SendLogin.css'
 import './InputLogin.css'
 
 export default () =>
     <div className='send-login'>
-        <span className='button-link'>Criar conta</span>
-        <span className='button-link'>a</span>
+        <Link to="/"><p className='button-link'>Retornar</p></Link>
+        <span className='button-link'>Continuar</span>
     </div>
