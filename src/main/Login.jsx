@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import "./All.css"
 import "./Login.css"
 
@@ -13,3 +14,5 @@ export default () =>
             <SendLogin />
         </div>
     </div>
+=======
+>>>>>>> parent of 0804a706 (up)
