@@ -22,10 +22,6 @@
     transition:all ease .3s;
     overflow-y: scroll;
     background-color: #fff;
-    
-}
-.left-bar:hover{
-    overflow-y: scroll;
 }
 .open-big{
     width: 220px;
