@@ -4,13 +4,13 @@
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 40px;
 }
-img{
+.tittle-login img{
     max-width: 65px;
 }
-.tittle{
+.tittle-login-h1{
     font-size: 20px;
 }
-.sub-tittle{
+.sub-tittle-login{
     font-size: 15px;
     color: rgba(0, 0, 0, 0.678);
 }
